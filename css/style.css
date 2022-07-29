@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* 
+===================
+     css reset
+===================
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ /* 
+===================
+     variables
+===================
+ */
+:root {
+     --clr-full-black:#111111;
+     --clr-left-tile-black :#181818;
+     --clr-middle-tiles-black:#1E1E1E;
+     --clr-tile-red :#C91B28;
+     --clr-white:#FFFFFF;
+     --clr-number-red:#EF4040;
+     --clr-btn-red:#FF3343;
+}
+
+ul {
+     list-style: none;
+}
+
+
+
+
+ /* 
+======================
+     global variables
+=======================
+ */
+.mb-1 {
+     margin-bottom: 1rem;
+}
+
+ .mb-2 {
+     margin-bottom: 2rem;
+ }
+ .red-me {
+     font-weight: bold;
+     color: var(--clr-tile-red);
+ }
+
+ .pd-rl-4{
+     padding: 0rem 4rem;
+ }
+
+ .btn {
+     padding: 1rem 2rem;
+     cursor: pointer;
+     background-color: var(--clr-btn-red);
+     color: white;
+     font-weight: bold;
+     text-transform: uppercase;
+     border: none;
+ }
+
+ .ww-80 {
+     width: 80vw;
+     display: block;
+     margin: auto;
+ }
+
+ h2{
+     font-weight: 900;
+ }
+
+ /* 
+===================
+     body
+===================
+ */
+
+ body {
+     font-family: 'Montserrat', sans-serif;
+     background-color: var(--clr-full-black);
+     color: var(--clr-white);
+ }
+
+ /* 
+===================
+     Navbar
+===================
+ */
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 2rem 4rem;
+ }
+ 
+ .navbar nav ul {
+     display: flex;
+     text-transform: uppercase;
+ }
+
+ nav ul li {
+     margin: 0rem 1.5rem;
+     cursor: pointer;
+ }
+ nav ul li:hover {
+     color: var(--clr-tile-red);
+ }
+
+ .logo-img {
+     width: 6rem;
+     filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+ }
+
+ /* 
+===================
+     header main
+===================
+ */
+
+ .header-main {
+     display: flex;
+     align-items: center;
+ }
+
+ .left-header {
+     flex: 1;
+ }
+ .right-header {
+     flex: 2;
+     padding-right: 5rem;
+ }
+ .right-header h1{
+     font-size: 3.5rem;
+     padding: 0.5rem 0rem;
+ }
+
+ .left-header img {
+     width: 34rem;
+     margin: 0rem 0rem 0.5rem 5rem;
+     float: right;
+ }
+
+ .right-header button {
+     margin-top: 2rem;
+ }
+
+  /* 
+==========================
+     Services section
+===========================
+ */
+
+ /* .services-section {
+     height: 1000px;
+     position: relative;
+ } */
+ .services-section {
+     /* content: "";
+     position: absolute; */
+     background-color: var(--clr-left-tile-black);
+     height: 900px;
+     width: 50vw;
+     left: 0;
+     z-index: -1;
+     padding-top: 2rem;
+ }
+
+ .service-cards {
+     display: flex;
+     justify-content: center;
+     width: 100vw;
+     align-items: center;
+     margin: 3rem 0rem;
+ }
+
+ .card {
+     background-color: var(--clr-middle-tiles-black);
+     padding: 2.5rem;
+     width: 18rem;
+     margin: 2rem 0.8rem;
+     height: 19rem;
+ }
+
+ .service-card-2 {
+     background-color: var(--clr-tile-red);
+ }
+
+ .card-2-img {
+     width: 6rem;
+ }
+
+ /* 
+ ==============
+ our clients history
+ ============
+ */
+ .our-history {
+     display: flex;
+     width:90vw;
+     align-items: center;
+     justify-content: center;
+     margin-left: 5vw;
+ }
+
+ .our-experience {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     align-items: end;
+     justify-content: center;
+     margin-left: 2rem;
+   
+ }
+
+ .our-experience-year {
+     font-size: 6rem;
+     color: var(--clr-number-red);
+     font-weight: 800;
+     margin-right: 4rem;
+ }
+
+ .clients-experience {
+     flex: 2;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-left: 2rem;
+ }
+
+ .client-card {
+     background: var(--clr-middle-tiles-black);
+     margin: 1rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 18rem;
+     height: 8rem;
+ }
+
+ .client-card h2 {
+     font-size: 2.5rem;
+     color: var(--clr-number-red);
+ }
+
+ /* 
+ =============================
+ Featured projects section
+ ================================
+ */
+ .featured-head {
+     display: flex;
+     justify-content: space-between;
+     margin: 4rem 6rem;
+ }
+
+ .featured-head-left h2 {
+     margin-bottom: 0.5rem;
+ }
+
+ /* featured cards */
+
+ .featured-cards {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 4rem 5rem;
+ }
+ .feature-card {
+     margin: 1rem;
+ }
+
+ .feature-card h2{
+     margin-bottom: 0.5rem;
+ }
+
+ .feature-image {
+     padding: 4rem 2rem;
+     background: var(--clr-middle-tiles-black);
+ }
+ .feature-img {
+     width: 23rem;
+ }
+
+ .feature-image-4 {
+     padding: 5.14rem 2rem;
+ }
+  
+ /* 
+ ==================
+ lets work together section 
+ ========================
+  */
+  .lets-work-section {
+     display: flex;
+     background-color: var(--clr-left-tile-black);
+     /* justify-content: space-around; */
+     align-items: center;
+     padding: 2rem 2rem;
+     height: 16rem;
+     width: 66vw;
+     margin-bottom: 4rem;
+  }
+  .lets-work-left{
+     flex: 2;
+     padding-right: 5rem;
+  }
+  .lets-work-right{
+     flex: 1;
+     display: flex;
+     justify-content: center;
+  }
+  .lets-work-left h1 {
+     font-size: 2.5rem;
+     margin-bottom: 1rem;
+  }
+
+  /* 
+  ===================
+  footer section
+  ===================
+   */
+   .footer{
+     display: block;
+     margin: auto;
+   }
+   .footer-top ul{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 2rem 0;
+   }
+   .footer-top ul li {
+     margin: 1rem;
+     text-transform: uppercase;
+   }
+   .footer-bottom img{
+     width: 5rem;
+   }
+
+   .footer-bottom {
+     display: flex;
+     background-color: var(--clr-middle-tiles-black);
+     padding: 3rem 15rem;
+   }
+   .social-icons img {
+     width: 2rem;
+     background-color: white;
+     margin-left: 1rem;
+     border-radius: 50%;
+     
+   }
+   .social-icons{
+     margin-left: 16rem;
+   }
