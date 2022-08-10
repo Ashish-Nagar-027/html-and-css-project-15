@@ -165,11 +165,12 @@ ul {
      /* content: "";
      position: absolute; */
      background-color: var(--clr-left-tile-black);
-     height: 900px;
+     /* height: 900px; */
      width: 50vw;
      left: 0;
      z-index: -1;
      padding-top: 2rem;
+     padding-bottom: 4rem;
  }
 
  .service-cards {
@@ -178,6 +179,7 @@ ul {
      width: 100vw;
      align-items: center;
      margin: 3rem 0rem;
+     flex-wrap: wrap;
  }
 
  .card {

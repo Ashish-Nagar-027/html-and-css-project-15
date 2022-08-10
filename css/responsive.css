@@ -1,0 +1,280 @@
+.ham {
+    display: none;
+}
+
+.hero-para{
+    word-spacing:5px ; 
+    line-height :1.5rem
+}
+.right-header-p {
+    font-size:1.2rem
+}
+
+.btn:hover {
+    background-color: #FF334394;
+}
+
+.social-icons svg, .logo {
+    cursor: pointer;
+}
+
+.cursor {
+    cursor:pointer
+}
+
+@media only screen and  (max-width:1380px){
+    
+    .featured-cards {
+        justify-content: center;
+    }
+    .feature-img{
+        width: 21rem;
+    }
+}
+@media only screen and  (max-width:1200px){
+    .client-card {
+        width: 15rem;
+    }
+}
+@media only screen and  (max-width:1000px){
+    .card {
+        width: 16rem;
+    }
+    .client-card {
+        width: 13rem;
+    }
+    .client-card h2 {
+        font-size: 1.5rem;
+    }
+    .our-experience-year {
+        font-size: 4rem;
+    }
+    .our-experience h2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and  (max-width:1150px){
+    .navbar nav ul {
+        display: none;
+    }
+    .ham {
+        display: flex;
+        width: 3rem;
+        height:5px;
+        background-color: brown;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .lets-work-left h1{
+        font-size: 2rem;
+    }
+
+    .ham::before,.ham::after {
+        content: "";
+        width: 3rem;
+        height: 5px;
+        background-color: brown;
+        position: absolute;
+    }
+
+    .ham::before{
+        top: 1rem;
+    }
+
+    .ham::after{
+        bottom: 1rem;
+    }
+
+    .left-header img{
+        width: 30rem;
+    }
+    .right-header {
+        font-size: 3rem;
+    }
+    .hero-para{
+        word-spacing:2px ;  
+        line-height :1.2rem;
+        font-size: 1rem;
+    }
+    .featured-head-left p {
+        width: 20rem;
+    }
+    
+}
+
+
+
+@media only screen and  (max-width:930px){
+    .header-main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-header {
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin: 2rem 0rem;
+        padding-right: 0;
+    }
+    .left-header img {
+        width: 25rem;
+        margin: 0;
+    }
+
+    .our-history {
+        margin-left:0 ;
+    }
+
+    .clients-experience {
+        flex-direction: column;
+    }
+    .client-card {
+        width: 16rem;
+    }
+
+    .lets-work-section {
+        height: auto;
+        width: auto;
+        max-width: 80vw;
+    }
+    .footer-bottom  {
+        padding: 3rem 10rem;
+    }
+    .social-icons {
+        margin-left: 0;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        width: 60vw;
+    }
+    .social-icons svg {
+        margin: 0rem 0.5rem;
+    }
+
+}
+
+
+@media only screen and  (max-width:620px){
+    .our-history {
+        display: flex;
+        flex-direction: column;
+    }
+    .our-experience {
+        margin-bottom: 2rem;
+    }
+    .service-cards {
+        flex-direction: column;
+    }
+    .featured-head {
+        margin: 4rem 0;
+    }
+    .feature-img {
+        width: 15rem;
+    }
+    .featured-head-left P {
+        width: 12rem;
+    }
+    .btn {
+        padding: 0.8rem 1rem;
+    }
+    .card 
+     {
+        margin: 1rem;
+    }
+
+    .lets-work-section {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .lets-work-left {
+        text-align: center;
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+
+    .footer-bottom  {
+        padding: 3rem 6rem;
+    }
+    
+}
+
+@media only screen and  (max-width:400px){
+    .ham,
+    .ham::after,
+    .ham::before {
+        width: 2rem;
+        height: 3px;
+    }
+    .ham::after {
+        bottom: 0.6rem;
+    }
+    .ham::before {
+        top: 0.6rem;
+    }
+
+    .navbar {
+        margin: 2rem;
+    }
+    .left-header img {
+        width: 16rem;
+    }
+    .right-header-p {
+        font-size: 1rem;
+    }
+    .right-header h1 {
+        font-size: 2rem;
+    }
+    .hero-para {
+        font-size: 0.8rem;
+    }
+    .card,.client-card {
+        width: 14rem;
+    }
+    .featured-head-left h1 {
+        font-size: 0.8rem;
+    }
+    .featured-head-left p {
+        width: 10rem;
+    }
+
+    .feature-image {
+        padding: 3rem 1rem;
+    }
+    .feature-img {
+        width: 10rem;
+    }
+
+    .lets-work-left h1 {
+        font-size: 1.2rem;
+    }
+    .lets-work-left p {
+        font-size: 0.8rem;
+    }
+    .footer-top ul {
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+    .footer-top ul li{
+        margin: 0.3rem;
+    }
+    .footer-bottom  {
+        padding: 2rem 0rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .social-icons {
+        margin-top: 1rem;
+    }
+    .social-icons svg {
+        margin: 0rem 0.5rem;
+    }
+}
+
