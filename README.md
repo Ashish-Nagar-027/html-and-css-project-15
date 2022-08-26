@@ -1,9 +1,23 @@
-# html-and-css-project-15
+# SAAS landing Page ( project-15 )
+
+## 📌 About  project :
+
+This is **Product Design LandingPage .** <br/> It's a beautiful landing page . <br/> 
+ <br/> 
+with the help of media queries i have made it responsive so that anyone can also try it in mobile devices.<br/> 
+
+it took me more than 2 hrs to build this project .<br />
+<br>
+**✅ check it out**  👉  [Live Link of this project](https://ashish-nagars-html-css-project-15.netlify.app/)
+<br>
+<br>
+
+##  👨‍💻 Skills used to build :
+- html
+- css
 
 
-This is __dasigners portfolio landing page__ <br/>
-In this project i have used html and css.<br/>
-with the help of media queries i have made it responsive.<br/>
-so that anyone can also try it in mobile devices.<br/> 
-
-check it out - [Live link of this project](https://ashish-nagars-html-css-project-15.netlify.app/)
+## 💻 support Devices :
+This webpage is compatible with desktops 🖥️ / Laptops 💻/ tablets/ mobile 📱screens, and consistent improvements are being made.
+<br>
+<br>
